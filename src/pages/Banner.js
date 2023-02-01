@@ -30,7 +30,7 @@ const Banner = () => {
             voluptate voluptatem quaerat rerum, at veritatis molestiae aperiam!
           </p>
           <div className="flex">
-            <button className="px-8 py-3 text-white uppercase font-semibold rounded-br-2xl rounded-tl-2xl bg-[#0c6e1c] ">
+            <button className="px-8 py-3 text-white uppercase font-semibold rounded-br-2xl rounded-tl-2xl bg-[#0c6e1c]">
               Order
             </button>
             <Link to="">

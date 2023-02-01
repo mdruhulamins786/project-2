@@ -6,9 +6,9 @@ import tir from "../assets/tir.png";
 
 const About = () => {
   return (
-    <>
-      <div className="text-center my-16 px-3">
-        <p className="text-5xl font-bold text-[#0c6e1c] uppercase">About Us</p>
+    <div className="">
+      <div className="text-center my-16 px-3 lg:px-0">
+        <p className="text-3xl md:text-5xl font-bold text-[#0c6e1c] uppercase">About Us</p>
         <p className="mt-6">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident
           totam <br /> veniam maxime debitis namea excepturi
@@ -16,7 +16,7 @@ const About = () => {
         </p>
       </div>
 
-      <div className="hero px-3">
+      <div className="hero px-3 lg:px-0 lg:mx-0">
         <div className="hero-content flex-col md:flex-row">
           <img
             src={youtube}
@@ -46,7 +46,7 @@ const About = () => {
 
       {/* 2 */}
 
-      <div className="hero mt-10 px-3">
+      <div className="hero mt-10 px-3 lg:px-0">
       <div className="hero-content flex-col md:flex-row-reverse">
           <img
             src={youtube}
@@ -73,7 +73,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
