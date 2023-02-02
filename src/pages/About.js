@@ -6,8 +6,8 @@ import tir from "../assets/tir.png";
 
 const About = () => {
   return (
-    <div className="">
-      <div className="text-center my-16 px-3 lg:px-0">
+    <div className="mb-10">
+      <div className="text-center my-16">
         <p className="text-3xl md:text-5xl font-bold text-[#0c6e1c] uppercase">About Us</p>
         <p className="mt-6">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident

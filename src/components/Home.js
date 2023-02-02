@@ -1,6 +1,7 @@
 import React from "react";
 import About from "../pages/About";
 import Banner from "../pages/Banner";
+import Blog from "../pages/Blog";
 import Discount from "../pages/Discount";
 import Offer from "../pages/Offer";
 import Price from "../pages/Price";
@@ -13,8 +14,9 @@ const Home = () => {
       <About />
       <Services />
       <Discount />
-      <Price/>
-      <Offer/>
+      <Price />
+      <Offer />
+      <Blog />
     </div>
   );
 };
