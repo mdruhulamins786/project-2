@@ -61,7 +61,7 @@ const Services = () => {
                 <div className="hero-content flex-col md:flex-row-reverse">
                   <img
                     src={photo}
-                    className="max-w-sm rounded-lg shadow-2xl"
+                    className="w-full rounded-lg shadow-2xl"
                     alt=""
                   />
                   <div>

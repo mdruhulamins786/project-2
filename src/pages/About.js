@@ -8,11 +8,12 @@ const About = () => {
   return (
     <div className="mb-10">
       <div className="text-center my-16">
-        <p className="text-3xl md:text-5xl font-bold text-[#0c6e1c] uppercase">About Us</p>
+        <p className="text-3xl md:text-5xl font-bold text-[#0c6e1c] uppercase">
+          About Us
+        </p>
         <p className="mt-6">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident
-          totam <br /> veniam maxime debitis namea excepturi
-          porro.
+          totam <br /> veniam maxime debitis namea excepturi porro.
         </p>
       </div>
 
@@ -20,7 +21,7 @@ const About = () => {
         <div className="hero-content flex-col md:flex-row">
           <img
             src={youtube}
-            className="max-w-sm rounded-lg shadow-2xl"
+            className="w-full rounded-lg shadow-2xl"
             alt=""
           />
           <div>
@@ -47,10 +48,10 @@ const About = () => {
       {/* 2 */}
 
       <div className="hero mt-10 px-3 lg:px-0">
-      <div className="hero-content flex-col md:flex-row-reverse">
+        <div className="hero-content flex-col md:flex-row-reverse">
           <img
             src={youtube}
-            className="max-w-sm rounded-lg shadow-2xl"
+            className="w-full rounded-lg shadow-2xl"
             alt=""
           />
           <div>
